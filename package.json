@@ -20,22 +20,22 @@
     "check": "oxfmt --check . && oxlint src/ && tsc"
   },
   "dependencies": {
-    "@cloudflare/ai-chat": "^0.6.0",
+    "@cloudflare/ai-chat": "^0.6.2",
     "@cloudflare/kumo": "^1.19.0",
     "@phosphor-icons/react": "^2.1.10",
     "@streamdown/code": "^1.1.1",
-    "agents": "^0.12.0",
-    "ai": "^6.0.170",
+    "agents": "^0.12.2",
+    "ai": "^6.0.174",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
     "streamdown": "^2.5.0",
     "workers-ai-provider": "^3.1.13",
-    "zod": "^4.4.1"
+    "zod": "^4.4.2"
   },
   "devDependencies": {
     "@babel/plugin-proposal-decorators": "^7.29.0",
-    "@cloudflare/vite-plugin": "1.34.0",
-    "@cloudflare/workers-types": "^4.20260430.1",
+    "@cloudflare/vite-plugin": "1.35.0",
+    "@cloudflare/workers-types": "^4.20260501.1",
     "@rolldown/plugin-babel": "^0.2.3",
     "@tailwindcss/vite": "^4.2.4",
     "@types/node": "^25.6.0",
@@ -47,6 +47,6 @@
     "tailwindcss": "^4.2.4",
     "typescript": "^6.0.3",
     "vite": "^8.0.10",
-    "wrangler": "4.86.0"
+    "wrangler": "4.87.0"
   }
 }
